@@ -92,7 +92,7 @@
 // let opcion = prompt(
 // "1. Celsius a Fahrenheit\n2. Fahrenheit a Celsius\n3. Metros a Kilómetros\n4. Kilómetros a Metros")
 
-// let valor = Number(prompt("Ingrese el valor a convertir"))
+// let valor = parseInt("Ingrese el valor a convertir"))
 // let resultado
 
 // if (opcion == 1) {
@@ -133,3 +133,55 @@
 
              // EJERCICIO 4
              
+// let precioTotal = parseInt("Ingrese el precio total de la compra"));
+// let tarjetaFrecuente = prompt("¿Tiene tarjeta frecuente? (s/n)");
+
+// let precioFinal = precioTotal;
+
+// if (precioTotal > 500) {
+
+//     precioFinal -= precioFinal * 0.10;
+
+//     if (tarjetaFrecuente === "s") {
+//         precioFinal -= precioFinal * 0.05;
+//     }
+
+//     alert("Se aplicó descuento");
+
+// } else if (precioTotal <= 100) {
+
+//     precioFinal += precioFinal * 0.05;
+
+//     alert("Se aplicó recargo");
+
+// }
+
+// alert("Precio final: " + precioFinal);   
+
+
+
+
+
+
+// Ejercicio 5 – Calculadora de Edad y Etapa de Vida
+// Pide al usuario:
+
+// Su año de nacimiento
+
+// El año actual
+
+// Calcula su edad y muestra un mensaje según el rango:
+
+// Menor de edad: menos de 18 años
+
+// Adulto joven: entre 18 y 30 años
+
+// Adulto: entre 31 y 59 años
+
+// Adulto mayor: 60 años o más
+// BONUS:
+// Pregunta además si ya cumplió años este año (“sí” o “no”) y ajusta la edad si es necesario.
+
+// Instrucciones:
+// Usa operadores de comparación, if-else-if, y parseInt() para convertir los datos numéricos.
+
